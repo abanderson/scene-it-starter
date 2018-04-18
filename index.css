@@ -14,3 +14,40 @@ body {
 	margin-top: 20px;
 }
 
+.movies-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* align-content: space-around; */
+    /*padding-left: 2%;
+    padding-right: 2%;*/
+}
+
+.card {
+    max-width: 24%;
+    margin-bottom: 1%;
+}
+
+.release {
+    margin-left: 10px;
+    color: #EEEEEE;
+    background-color: #333333;
+    padding: 2px 6px;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.movie {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.add {
+    margin-top: 1em;
+}
+
+/* .card-img {
+    max-height: 375px;
+} */
