@@ -4,10 +4,10 @@ $(function() {
 
         movieArray.forEach(function(currentMovie) {
             finalHTML += "<div class=\"movie card\">";
-            finalHTML += "<img class=\"card-img\" src=\"" + currentMovie.Poster + "\"alt=\"Card image\">";
-            finalHTML += "<div class=\"card-body\"><span class=\"card-title movie\">" + currentMovie.Title + "</span>";
-            finalHTML += "<span class=\"card-text release\">" + currentMovie.Year + "</span>";
-            finalHTML += "<button data-id=\"" + currentMovie.imdbID + "\" type=\"button\" class=\"btn btn-secondary btn-block add\">Add</button></div></div>";
+            finalHTML += "<img class=\"card-img poster\" src=\"" + currentMovie.Poster + "\"alt=\"Card image\">";
+            finalHTML += "<div class=\"card-body\"><div class=\"card-title movie-title\">" + currentMovie.Title + "</div>";
+            finalHTML += "<div class=\"card-text release\">" + currentMovie.Year + "</div>";
+            finalHTML += "<button data-id=\"" + currentMovie.imdbID + "\" type=\"button\" class=\"btn btn-secondary btn-block btn-sm add\">Add</button></div></div>";
         });
 
         return finalHTML;
