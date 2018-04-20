@@ -20,7 +20,6 @@ $(function() {
 };
 
     var moviesHTML = renderMovies(watchlist);
-    console.log(moviesHTML);
     $('.movies-container').html(moviesHTML);
 
 });
